@@ -22,6 +22,8 @@ img, svg {
 
 button {
     padding: 0;
+    border: 0;
+    background-color: transparent;
     cursor: pointer;
 }
 
@@ -46,6 +48,7 @@ h1, h2, h3, p {
     max-width: 1324px;
     margin: 0 auto;
     padding: 0 15px;
+    transition: all 0.3s ease-in-out;
 }
 
 @media (min-width: 768px) {

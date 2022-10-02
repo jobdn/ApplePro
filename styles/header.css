@@ -1,0 +1,40 @@
+/* 
+    Создаем отдельный файл, потому что там есть отдельный родитель-класс.
+*/
+
+.header {
+  padding: 24px 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px 0;
+}
+
+.header__navivation {
+  order: 1;
+  flex-basis: 100%;
+}
+
+@media (min-width: 580px) {
+  .header__navivation {
+    order: 0;
+    flex-basis: auto;
+    margin-right: 50px;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .header__navivation {
+    margin-right: 84px;
+  }
+}

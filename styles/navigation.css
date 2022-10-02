@@ -1,0 +1,17 @@
+.navigation__list {
+    display: flex;
+}
+
+.navigation__item {
+    padding-right: 50px;
+}
+
+.navigation__item:last-child {
+    padding-right: 0;
+}
+
+@media (min-width: 1024px) {
+    .navigation__item {
+        padding-right: 84px;
+    }
+  }

@@ -1,0 +1,23 @@
+.country__btn {
+  line-height: 19px;
+  position: relative;
+  padding-right: 15px;
+
+  color: #000000;
+}
+
+.country__btn::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 9px;
+    height: 6px;
+    background: no-repeat center url("../img/arrow-down.svg");
+}
+
+.country__list {
+  display: none;
+}
